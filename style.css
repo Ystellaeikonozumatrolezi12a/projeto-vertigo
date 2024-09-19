@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Titilium Web', sans-serif;
+
 }
 
 :root {
@@ -125,7 +126,7 @@ main {
     display: none;
 }
 
-@media(min-widht: 1000px) {
+@media(min-width: 1000px) {
     body {
         display: flex;
         height: 100vh;
@@ -173,5 +174,4 @@ main {
     .descricao p {
         font-size: 1rem;
     }
-
 }
